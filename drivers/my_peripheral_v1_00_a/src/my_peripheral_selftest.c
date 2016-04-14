@@ -42,13 +42,15 @@
  * @note    Self test may fail if data memory and device are not on the same bus.
  *
  */
+
+
 XStatus MY_PERIPHERAL_SelfTest(void * baseaddr_p)
 {
   Xuint32 baseaddr;
   int write_loop_index;
   int read_loop_index;
   int Index;
-  
+
   /*
    * Check and get the device address
    */

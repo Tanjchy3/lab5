@@ -120,7 +120,7 @@ void MY_PERIPHERAL_ClearScreen();
 
 /**
 *  Defines the number of registers available for read and write*/
-#define TEST_AXI_LITE_USER_NUM_REG 1
+#define MY_PERIPHERAL_USER_NUM_REG
 
 
 #endif /** MY_PERIPHERAL_H */
